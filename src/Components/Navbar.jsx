@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '../Assests/Logo.svg';
+import Logo from '../Assests/Logo.png';
 
 import { BsCart2 } from 'react-icons/bs';
 import { HiOutlineBars3 } from 'react-icons/hi2';
@@ -48,11 +48,13 @@ const Navbar = () => {
   return (
     <nav>
         <div className="nav-logo-container">
+            <div className="nav-logo">
             <img src={Logo} alt="logo" />
+            </div>
         </div>
         <div className="navbar-links-container">
             <a href="">Home</a>
-            <a href="">About</a>
+            <a href=" ">About</a>
             <a href="">Testimonials</a>
             <a href="">Contact</a>
        

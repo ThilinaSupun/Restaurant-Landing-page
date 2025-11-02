@@ -29,6 +29,12 @@ nav {
   justify-content: space-between;
   min-height: 90px;
 }
+.nav-logo{
+  width: 100px;
+  height: auto;
+  display: flex;
+
+}
 .navbar-menu-container {
   display: none;
 }
@@ -260,6 +266,13 @@ nav {
 .testimonial-section-bottom h2 {
   margin-top: 1.5rem;
 }
+.profilePic{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 1rem;
+},
 .work-section-wrapper {
   margin-top: 15rem;
 }
